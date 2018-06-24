@@ -25,3 +25,4 @@ legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=
 plot(sub$DateTime, sub$Voltage, type="l", xlab="datetime", ylab="Voltage")   # Adding the third plot.
 plot(sub$DateTime, sub$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")  # Adding the forth plot.
 dev.off()
+
