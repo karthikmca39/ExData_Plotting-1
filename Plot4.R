@@ -26,3 +26,4 @@ plot(sub$DateTime, sub$Voltage, type="l", xlab="datetime", ylab="Voltage")   # A
 plot(sub$DateTime, sub$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")  # Adding the forth plot.
 dev.off()
 
+
